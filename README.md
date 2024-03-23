@@ -59,9 +59,9 @@ This project demonstrates how to create a scalable and high-availability web app
 
 ## Customization
 
-- Update the `provider.tf` with the region you prefer to deploy your resources.
+- Update the `aws_provider.tf` with the region you prefer to deploy your resources.
 - Modify the `cloud_db_string` and `on_prem_db_string` in the scripts to match your actual database connection strings.
-- Adjust the instance types, AMI IDs, and scaling parameters in `autoscaling.tf` as necessary to fit your application's needs.
+- Adjust the instance types, AMI IDs, and scaling parameters in `aws_autoscaling.tf` as necessary to fit your application's needs.
 
 ## Cleanup
 
